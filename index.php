@@ -29,9 +29,7 @@
 <body>
 
 	<div class="wrapper">
-		<header>
-			<?php require_once "includes/header.php"; ?>
-		</header>
+		<?php require_once "includes/header.php"; ?>
 		<div class="rasporka"></div>
 	</div>
 
