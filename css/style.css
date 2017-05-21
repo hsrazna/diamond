@@ -23,6 +23,57 @@ a {cursor:pointer;}
 
 /* ____________________________________________________________________End ReSeT_CSS__________*/
 
+@font-face {
+	font-family: 'exo';
+	src: url('fonts/exo.eot');
+	src: url('fonts/exo.eot?') format('embedded-opentype'),
+		url('fonts/exo.ttf') format('truetype'),
+		url('fonts/exo.svg') format('svg'),
+		url('fonts/exo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'exo_bold';
+	src: url('fonts/exo_bold.eot');
+	src: url('fonts/exo_bold.eot?') format('embedded-opentype'),
+		url('fonts/exo_bold.ttf') format('truetype'),
+		url('fonts/exo_bold.svg') format('svg'),
+		url('fonts/exo_bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'exo_extra_light';
+	src: url('fonts/exo_extra_light.eot');
+	src: url('fonts/exo_extra_light.eot?') format('embedded-opentype'),
+		url('fonts/exo_extra_light.ttf') format('truetype'),
+		url('fonts/exo_extra_light.svg') format('svg'),
+		url('fonts/exo_extra_light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'exo_light';
+	src: url('fonts/exo_light.eot');
+	src: url('fonts/exo_light.eot?') format('embedded-opentype'),
+		url('fonts/exo_light.ttf') format('truetype'),
+		url('fonts/exo_light.svg') format('svg'),
+		url('fonts/exo_light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'exo_light_italic';
+	src: url('fonts/exo_light_italic.eot');
+	src: url('fonts/exo_light_italic.eot?') format('embedded-opentype'),
+		url('fonts/exo_light_italic.ttf') format('truetype'),
+		url('fonts/exo_light_italic.svg') format('svg'),
+		url('fonts/exo_light_italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* WRAPPER */
 html	{	overflow-y: scroll;	}
 html, body	{	height: 100%;	}
