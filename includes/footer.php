@@ -1,5 +1,5 @@
 <footer class="footer">
-	<div class="wrap">
+	<div class="wrapp">
 		<div class="homebox">
 			<a href="#" class="homelink">home</a>
 		</div>
