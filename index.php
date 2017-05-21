@@ -33,8 +33,8 @@
 		<div class="rasporka"></div>
 	</div>
 
-	<footer>
+	<!-- <footer> -->
 		<?php require_once "includes/footer.php"; ?>
-	</footer>
+	<!-- </footer> -->
 </body>
 </html>

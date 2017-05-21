@@ -88,6 +88,49 @@ body	{	min-width: 1000px;	}
 
 /* ****	PAGES	**** */
 /* MAIN */
+.footer	{	background: url(images/fotfon.jpg)repeat-x; padding: 12px 0px 0px 0px;	}
+.homelink	{	position: relative; display: block; width: 58px; height: 47px; background: rgba(0,0,0,0.1); border-radius: 20px; font: 11px/60px 'exo_extra_light', Calibri; color: #3888e1; text-transform: uppercase; text-align: center; margin: 0 auto;	}
+.homelink:after {	position: absolute; content: ""; background: url(images/home.png) no-repeat; width: 16px; height: 15px; right: 20px; top: 7px;	}
+.fmenu	{	position: relative; display: block; width: 100%; text-align: center; padding: 7px 0px; box-shadow: 0px -1px 15px 0px rgba(0, 0, 0, 0.6); margin: 12px 0px 25px 0px;	}
+/*.fmenu:after {	position: absolute; content: ""; background: #000; width: 100%; height: 10px; opacity: 0.3; right: 20px; top: 7px;	}*/
+.fmenu li	{	display: inline-block; margin: 0px 8px;	}
+.fmenu li a	{	display: inline-block;	font: 13px/24px 'exo_extra_light', Calibri; color: #fff; text-transform: uppercase; 	}
+.fmenu li a:hover	{	text-decoration: underline;	}
+.fmenu li a:active	{	text-decoration: underline;	}
+.fbottom	{	display: block; width: 100%; font-size: 0;	}
+.ftelbox, .flogobox, .fadresbox	{display: inline-block;	width: 32.8%;	}
+.ftelbox	{	padding-left: 10px;	}
+.flogobox	{	text-align: center;	}
+.fadresbox	{	text-align: right; padding-right: 10px;	}
+.ftel	{	display: block; font: 12px/11px 'exo_light', Calibri; color: #b4b5b5;	}
+.ftel:hover	{	text-decoration: underline;	}
+.ftel span	{ display: inline-block; width: 36px; height: 33px; border-radius: 50%; background: url(images/tel.png) center center no-repeat rgba(0,0,0,0.2); vertical-align: middle; margin-left: 10px;	}
+.ftext	{	display: block; font: 12px/11px 'exo_light', Calibri; color: #b4b5b5;	}
+.ftext span	{ display: inline-block; width: 36px; height: 33px; border-radius: 50%; background: url(images/like.png) center center no-repeat rgba(0,0,0,0.2); vertical-align: middle; margin-left: 10px;	}
+.fmes	{	display: block; font: 12px/11px 'exo_light', Calibri; color: #b4b5b5;	}
+.fmes span	{ display: inline-block; width: 36px; height: 33px; border-radius: 50%; background: url(images/mes.png) center center no-repeat rgba(0,0,0,0.2); vertical-align: middle; margin-right: 10px;	}
+.fmes strong	{	font: 16px/11px 'exo_light', Calibri; color: #b4b5b5;	}
+.fadr	{	display: block; font: 12px/11px 'exo_light', Calibri; color: #b4b5b5;	}
+.fadr span	{ display: inline-block; width: 36px; height: 33px; border-radius: 50%; background: url(images/adr.png) center center no-repeat rgba(0,0,0,0.2); vertical-align: middle; margin-right: 10px;	}
+.flogotext	{	display: block; font: 11px/11px 'exo_extra_light', Calibri; color: #fff; text-transform: uppercase; margin-top: 12px;	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* End MAIN */
 /* End PAGES */
 
