@@ -1,1 +1,15 @@
+.header .bgT	{	background: #1F1F1F;	position: absolute;	z-index: 2;	top: 0;	left: 0;	width: 100%;	height: 69px;	}
+.header .logo	{	background: transparent url(images/logo-bg.png) no-repeat center top;	height: 72px;	position: relative;	z-index: 3;	text-align: center;	padding-top: 14px;	}
+.header .menu	{	background: transparent url(images/menu.png) no-repeat center top;	position: relative;	z-index: 2;	margin-top: -33px;	height: 146px;	}
+.header .menu ul	{	font-size: 0;	text-align: center;	position: relative;	top: 45px;	}
+.header .menu li	{	display: inline-block;	vertical-align: top;	padding: 0 10px;	margin-right: 2px;	position: relative;	}
+.header .menu li:after	{	content: "";	position: absolute;	top: 0;	right: -2px;	width: 2px;	height: 100%;	background: #0d55b3 url(images/menu-item.png) no-repeat center;	}
+.header .menu li:last-child:after	{	display: none;	}
+.header .menu a	{	font: 16px/32px "exo_extra_light", Cuprum;	color: #fff;	padding: 0 8px;	position: relative;	display: inline-block;	vertical-align: top;	}
+.header .menu a:hover	{	color: #030303;	}
+.header .menu a:hover:before	{	position: absolute;	z-index: -3;	content: "";	width: 100%;	height: 46px;	top: 0;	left: 0;	background: url(images/menu-hover2.png) no-repeat center bottom;	}
+.header .menu a:hover:after	{	position: absolute;	z-index: -6;	content: "";	width: 64px;	height: 35px;	top: 42px;	left: 50%;	margin-left: -32px;	background: url(images/menu-hover.png) no-repeat center;	}
+
+
+
 
